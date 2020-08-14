@@ -1,0 +1,204 @@
+body {
+  color: black;
+}
+
+.hide {
+  display: none;
+}
+
+.clear {
+  clear: both;
+}
+
+.md-macbook-pro .md-screen {
+  background-color: #f3f5f6 !important;
+}
+
+#CarShopSection {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+#CarShopSection .top-section {
+  width: 100%;
+  height: 45px;
+  background-color: #2f3538;
+  color: white;
+  line-height: 45px;
+  font-weight: bold;
+  font-size: 19px;
+}
+#CarShopSection .top-section .logo {
+  width: 80px;
+  height: 100%;
+  float: left;
+  background-color: white;
+  text-align: center;
+  margin-right: 15px;
+}
+#CarShopSection .top-section .logo img {
+  height: 80%;
+  width: auto !important;
+  margin-left: 9px;
+  margin-top: 5px;
+}
+#CarShopSection .side-menu {
+  width: 80px;
+  height: 100%;
+  background-color: white;
+  float: left;
+  box-shadow: 4px 0px 15px rgba(0, 0, 0, 0.1);
+}
+#CarShopSection .side-menu .menu-list {
+  margin-top: 0;
+  padding-left: 0;
+  list-style: none;
+}
+#CarShopSection .side-menu .menu-list li {
+  height: 75px;
+}
+#CarShopSection .side-menu .menu-list li:first-child {
+  border-bottom: 1px solid #e3e3e3;
+  border-top: 1px solid #e3e3e3;
+}
+#CarShopSection .side-menu .menu-list li a.each-item {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-bottom: 1px solid #e3e3e3;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .icon {
+  width: 36%;
+  height: 50px;
+  margin: 0 auto;
+  background-size: 100% 100%;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .icon.car {
+  background-image: url("imgs/car-icon.png");
+  transform: scaleX(-1);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .icon.bike {
+  background-image: url("imgs/bike-icon.png");
+  transform: scaleX(-1);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .icon.truck {
+  background-image: url("imgs/truck-icon.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .item-title {
+  color: #808890;
+  font-size: 11px;
+  display: block;
+  font-weight: bold;
+}
+#CarShopSection .side-menu .menu-list li a.each-item .item-title.selected {
+  color: #0099da;
+}
+#CarShopSection .side-menu .menu-list li a.each-item:hover {
+  background-color: #f3f3f3;
+}
+#CarShopSection .side-menu .menu-list li a.each-item.selected .item-title {
+  color: #0099da;
+}
+#CarShopSection .side-menu .menu-list li a.each-item.selected .icon.car {
+  background-image: url("imgs/car-icon.selected.png");
+  transform: scaleX(-1);
+}
+#CarShopSection .side-menu .menu-list li a.each-item.selected .icon.bike {
+  background-image: url("imgs/bike-icon.selected.png");
+  transform: scaleX(-1);
+}
+#CarShopSection .side-menu .menu-list li a.each-item.selected .icon.truck {
+  background-image: url("imgs/truck-icon.selected.png");
+}
+#CarShopSection .middle-section {
+  margin-left: 80px;
+  padding: 10px;
+  color: white;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+  overflow-y: scroll;
+  max-height: 290px;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle {
+  width: calc(33% - 20px);
+  height: auto;
+  background-color: #e3e3e3;
+  float: left;
+  margin: 10px;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: #3c3c3c;
+  border-bottom: 2px solid transparent;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a .car-info {
+  padding: 5px;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a .car-info .each-info {
+  display: block;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a .car-info .each-info span {
+  font-size: 12px;
+  float: left;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a .car-info .each-info strong {
+  float: right;
+  font-size: 13px;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .vehicle-list .each-vehicle a:hover {
+  border-bottom: 2px solid #0099da;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .search-section {
+  padding: 10px;
+  width: calc(100% - 25px);
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .search-section input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border: 0;
+  border-radius: 2px;
+}
+#CarShopSection .middle-section .multiple-frames .each-frame .search-section .not-found {
+  color: #3c3c3c;
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=index.css.map */
+
+.cd-popup {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s 0s, visibility 0s 0.3s;
+}
+
+.cd-popup.is-visible {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s 0s, visibility 0s 0s;
+}
+
+.cd-popup-container {
+  transform: translateY(-40px);
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.is-visible .cd-popup-container {
+  transform: translateY(0);
+}

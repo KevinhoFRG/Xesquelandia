@@ -1,0 +1,28 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="utilidades">Utilidades</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="utilidades" style="display: none;">
+				<button class="menuoption" data-sub="utilidades-comprar">Comprar</button>
+				<button class="menuoption" data-sub="utilidades-vender">Vender</button>
+			</div>
+			<div data-parent="utilidades" id="utilidades-comprar" style="display: none;">
+				<button class="menuoption" data-action="utilidades-comprar-nitro"><l>Nitro</l><r>R$5.000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-reparo"><l>Kit Reparo</l><r>R$2.000</r></button>
+			</div>
+			<div data-parent="utilidades" id="utilidades-vender" style="display: none;">
+				<button class="menuoption" data-action="utilidades-vender-nitro"><l>Nitro</l><r>R$2.500</r></button>
+				<button class="menuoption" data-action="utilidades-vender-reparo"><l>Kit Reparo</l><r>R$1.000</r></button>
+			</div>
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>

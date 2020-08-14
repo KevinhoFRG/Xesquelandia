@@ -1,0 +1,2075 @@
+@import url('https://fonts.googleapis.com/css?family=Syncopate|Unica+One');
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,400italic,500,500italic,700,700italic,900,900italic,300italic,300,100italic,100);
+
+body, html {
+	overflow-y: hidden;
+}
+/* main.css */
+
+button{ 
+    color: white;
+    background-color:  transparent;
+    font-family: 'Unica One', cursive;
+	font-size: 18px;
+    margin: 2px auto;
+	padding: 1	px 2px;
+    cursor: pointer;
+	border: none;
+    border-radius: 1px;
+    text-transform: uppercase;
+    width: 36%;
+    height: 6%;
+    display: inline-block;
+    position: relative;
+    left: 10%;
+    bottom: -222px;
+
+}
+#test{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#festiveButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#test2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#jobbButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#test4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#humorButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#test6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#sportbutt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#test8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#miscButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#test10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#sexButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#test12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#blandatButt{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#test14{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+#sex{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#sex1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#sex2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#sex3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#sex4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#sex5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#sex6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#sex7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -140;
+}
+#sex8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -145;
+}
+#sex9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -145;
+}
+#sex10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -150;
+}
+#sex11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -150;
+}
+#sex12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#sex13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#cancelsex{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+
+#misc{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#misc1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#misc2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#misc3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#misc4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#misc5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#misc6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#misc7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#misc8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#misc9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#misc10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#misc11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#misc12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#misc13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#cancelmisc{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+#festive{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#festive1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#festive2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#festive3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#festive4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#festive5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#festive6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#festive7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#festive8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#festive9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#festive10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#festive11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#festive12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#festive13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#cancelfestive{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+
+#jobb{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#jobb1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#jobb2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#jobb3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#jobb4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#jobb5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#jobb6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#jobb7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#jobb8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#jobb9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#jobb10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#jobb11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#jobb12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#jobb13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#canceljobb{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+
+
+
+#humor{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#humor1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#humor2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#humor3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#humor4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#humor5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#humor6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#humor7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -140;
+}
+#humor8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#humor9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -145;
+}
+#humor10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#humor11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -150;
+}
+#humor12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#humor13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -155;
+}
+#cancelhumor{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+
+#sport{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+    bottom: -125px;
+}
+
+
+#sport1{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -125;
+}
+#sport2{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px; 
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+
+#sport3{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -130;
+}
+#sport4{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#sport5{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -135;
+}
+#sport6{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: -5%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -140;
+}
+#sport7{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 35%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -140;
+}
+#sport8{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 0%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -145;
+}
+#sport9{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 30%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -145;
+}
+#sport10{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 5%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -150;
+}
+#sport11{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 25%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -150;
+}
+#sport12{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#sport13{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 36%;
+   height: 6%;
+   left: 15%;
+   opacity: 0;
+   border: 2px solid black;
+   bottom: -155;
+}
+#cancelsport{
+	color: white;
+   background-color:  black;
+   font-family: 'Unica One', cursive;
+   font-size: 18px;
+   cursor: pointer;
+   border-radius: 5px;
+   text-transform: uppercase;
+   width: 19%;
+   height: 6%;
+   left: -31.7%;
+   opacity: 0.8;
+   border: 2px solid black;
+   bottom: -100;
+}
+
+
+h3{
+	position: absolute;
+	left: 40.2%;
+	bottom: 55%;
+	 background-color:  white;
+	  font-size: 12px;
+	 opacity: 0.1;
+	 border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+.general{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+
+
+.sexyUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.miscUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.festiveUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.jobbUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.humorUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+.sportUI{
+    /*background-image: url('img/phone.png');*/
+	background-repeat: no-repeat;
+	font-family: 'Unica One', cursive;
+	background-size: 500px 500px;
+	width: 500px; 
+	height: 500px; 
+	position: absolute;
+
+	top: 25%;
+	left: 30%;
+
+}
+
+
+
+
+
+
+
+h1{
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 48%;
+	top: 39%;
+}
+.b{
+	
+	font-family: 'Unica One', cursive;
+	color: black;
+	position: relative;
+	left: 30%;
+	top: 30%;
+}
+
+
+
+
+
+
+
+
+input[type=text] {
+	position: relative;
+    top: 50px;
+    left: 180px;
+    
+	font-family: 'Unica One';
+    width: 40%;
+    height: 8%;
+    padding: 5px 5px;
+    margin: 40px 0;
+    box-sizing: border-box;
+ 
+	
+}
+
+
+button:hover{
+	background-color: black;
+
+	 opacity: 1.0;
+}
+
+#test:hover{
+	opacity:1.0
+	}
+#festiveButt:hover{
+opacity:1.0
+}
+#test2:hover{
+	opacity:1.0
+	}
+	#test3:hover{
+		opacity:1.0
+		}
+		#test4:hover{
+			opacity:1.0
+			}
+			#humorButt:hover{
+				opacity:1.0
+				}
+				#test6:hover{
+					opacity:1.0
+					}
+					#sportButt:hover{
+						opacity:1.0
+						}
+						#test8:hover{
+							opacity:1.0
+							}
+							#blandatButt:hover{
+								opacity:0.0
+								}
+								#test10:hover{
+									opacity:1.0
+									}
+									#attiitudemButt:hover{
+										opacity:1.0
+										}
+										#test12:hover{
+											opacity:1.0
+											}
+											#sexButt:hover{
+												opacity:1.0
+												}
+												#test14:hover{
+													opacity:1.0
+													}
+													#cancelsex:hover{
+													opacity:1.0
+													}
+													#sex:hover{
+													opacity:1.0
+													}
+													#sex1:hover{
+													opacity:1.0
+													}
+													#sex2:hover{
+													opacity:1.0
+													}
+													#sex3:hover{
+													opacity:1.0
+													}
+													#sex4:hover{
+													opacity:1.0
+													}
+													#sex5:hover{
+													opacity:1.0
+													}
+													#sex6:hover{
+													opacity:1.0
+													}
+													#cancelmisc:hover{
+													opacity:1.0
+													}
+													#misc:hover{
+													opacity:1.0
+													}
+													#misc1:hover{
+													opacity:1.0
+													}
+													#misc2:hover{
+													opacity:1.0
+													}
+													#misc3:hover{
+													opacity:1.0
+													}
+													#misc4:hover{
+													opacity:1.0
+													}
+													#misc5:hover{
+													opacity:1.0
+													}
+													#misc6:hover{
+													opacity:1.0
+													}
+													#misc7:hover{
+													opacity:1.0
+													}
+													#misc8:hover{
+													opacity:1.0
+													}
+													#misc9:hover{
+													opacity:1.0
+													}
+													#misc10:hover{
+													opacity:1.0
+                                                    }
+                                                    #misc11:hover{
+                                                        opacity:1.0
+                                                        }	
+                                                     #misc12:hover{
+                                                         opacity:1.0
+                                                        }	
+													#cancelfestive:hover{
+													opacity:1.0
+													}
+													#festive:hover{
+													opacity:1.0
+													}
+													#festive1:hover{
+													opacity:1.0
+													}
+													#festive2:hover{
+													opacity:1.0
+													}
+													#festive3:hover{
+													opacity:1.0
+													}
+													#festive4:hover{
+													opacity:1.0
+													}
+													#festive5:hover{
+													opacity:1.0
+													}
+													#festive6:hover{
+													opacity:1.0
+													}
+													#festive7:hover{
+													opacity:1.0
+													}
+													#festive8:hover{
+													opacity:1.0
+													}
+													#festive9:hover{
+													opacity:1.0
+                                                    }
+                                                    #festive10:hover{
+                                                    opacity:1.0
+                                                    }
+                                                    #festive11:hover{
+                                                    opacity:1.0
+                                                    }
+													#canceljobb:hover{
+													opacity:1.0
+													}
+													#jobb:hover{
+													opacity:1.0
+													}
+													#jobb1:hover{
+													opacity:1.0
+													}
+													#jobb2:hover{
+													opacity:1.0
+													}
+													#jobb3:hover{
+													opacity:1.0
+													}
+													#jobb4:hover{
+													opacity:1.0
+													}
+													#jobb5:hover{
+													opacity:1.0
+													}
+													#jobb6:hover{
+													opacity:1.0
+													}
+													#jobb7:hover{
+													opacity:1.0
+													}
+													#jobb8:hover{
+													opacity:1.0
+													}
+													#jobb9:hover{
+													opacity:1.0
+													}
+													#jobb10:hover{
+													opacity:1.0
+													}
+													#jobb11:hover{
+													opacity:1.0
+													}
+													#jobb12:hover{
+													opacity:1.0
+													}
+													#jobb13:hover{
+													opacity:1.0
+													}
+													#cancelhumor:hover{
+													opacity:1.0
+													}
+													#humor:hover{
+													opacity:1.0
+													}
+													#humor1:hover{
+													opacity:1.0
+													}
+													#humor2:hover{
+													opacity:1.0
+													}
+													#humor3:hover{
+													opacity:1.0
+													}
+													#humor4:hover{
+													opacity:1.0
+													}
+													#humor5:hover{
+													opacity:1.0
+													}
+													#humor6:hover{
+													opacity:1.0
+													}
+													#humor7:hover{
+													opacity:1.0
+													}
+													#humor8:hover{
+													opacity:1.0
+													}
+													#humor9:hover{
+													opacity:1.0
+													}
+													#humor10:hover{
+													opacity:1.0
+													}
+													#humor11:hover{
+													opacity:1.0
+													}
+													#humor12:hover{
+													opacity:1.0
+													}
+													#humor13:hover{
+													opacity:1.0
+													}
+													#cancelsport:hover{
+													opacity:1.0
+													}
+													#sport:hover{
+													opacity:1.0
+													}
+													#sport1:hover{
+													opacity:1.0
+													}
+													#sport2:hover{
+													opacity:1.0
+													}
+													#sport3:hover{
+													opacity:1.0
+													}
+													#sport4:hover{
+                                                    opacity:1.0
+                                                    }
+                                                    #sport5:hover{
+                                                        opacity:1.0
+                                                    }
+
+												
+												
+
+
+												
+
+

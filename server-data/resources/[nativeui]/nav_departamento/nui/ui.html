@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+		<link href="ui.css" rel="stylesheet" type="text/css"/>
+	</head>
+	<body>
+		<div id="actionmenu">
+			<div id="mainmenu">
+				<button class="menuoption" data-sub="utilidades">Utilidades</button>
+				<button class="menuoption" data-sub="comidas">Comidas</button>
+				<button class="menuoption" data-sub="bebidas">Bebidas</button>
+				<button class="menuoption" data-action="fechar">Fechar</button>
+			</div>
+
+			<div data-parent="mainmenu" id="utilidades" style="display: none;">
+				<button class="menuoption" data-sub="utilidades-comprar">Comprar</button>
+				<button class="menuoption" data-sub="utilidades-vender">Vender</button>
+			</div>
+			<div data-parent="utilidades" id="utilidades-comprar" style="display: none;">
+				<button class="menuoption" data-action="utilidades-comprar-isca"><l>Isca</l><r>R$500</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-garrafa"><l>Garrafa Vazia</l><r>R$15</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-militec"><l>Militec-1</l><r>R$2.500</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-reparos"><l>Kit de Reparos</l><r>R$2500</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-ferramentas"><l>Ferramentas</l><r>R$20</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-croquettes"><l>Ração</l><r>R$50</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-rastreador"><l>Rastreador</l><r>R$1200</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-bandagem"><l>Bandagem</l><r>R$3000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-roupas"><l>Roupas</l><r>R$3000</r></button>
+				<button class="menuoption" data-action="utilidades-comprar-mochila"><l>Mochila</l><r>R$10.000</r></button>
+				<button class="menuoption" data-action="utilidades-vender-alianca"><l>Aliança</l><r>R$300</r></button>
+			</div>
+			<div data-parent="utilidades" id="utilidades-vender" style="display: none;">
+				<button class="menuoption" data-action="utilidades-vender-isca"><l>Isca</l><r>R$250</r></button>
+				<button class="menuoption" data-action="utilidades-vender-garrafa"><l>Garrafa Vazia</l><r>R$7</r></button>
+				<button class="menuoption" data-action="utilidades-vender-rastreador"><l>Rastrador-1</l><r>R$600</r></button>
+				<button class="menuoption" data-action="utilidades-vender-militec"><l>Militec-1</l><r>R$1.250</r></button>
+				<button class="menuoption" data-action="utilidades-vender-croquettes"><l>Ração</l><r>R$25</r></button>
+				<button class="menuoption" data-action="utilidades-vender-reparos"><l>Kit de Reparos</l><r>R$500</r></button>
+				<button class="menuoption" data-action="utilidades-vender-ferramentas"><l>Ferramentas</l><r>R$10</r></button>
+				<button class="menuoption" data-action="utilidades-vender-roupas"><l>Roupas</l><r>R$500</r></button>
+				<button class="menuoption" data-action="utilidades-vender-mochila"><l>Mochila</l><r>R$5.000</r></button>
+				<button class="menuoption" data-action="utilidades-vender-alianca"><l>Aliança</l><r>R$150</r></button>
+			</div>
+
+			<div data-parent="mainmenu" id="bebidas" style="display: none;">
+				<button class="menuoption" data-sub="bebidas-comprar">Comprar</button>
+				<button class="menuoption" data-sub="bebidas-vender">Vender</button>
+			</div>
+			<div data-parent="bebidas" id="bebidas-comprar" style="display: none;">
+				<button class="menuoption" data-action="bebidas-comprar-cerveja"><l>Cerveja</l><r>R$18</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-tequila"><l>Tequila</l><r>R$30</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-vodka"><l>Vodka</l><r>R$48</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-whisky"><l>Whisky</l><r>R$60</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-conhaque"><l>Conhaque</l><r>R$72</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-absinto"><l>Absinto</l><r>R$90</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-energetico"><l>Energético</l><r>R$150</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-agua"><l>Água</l><r>R$80</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-limonada"><l>Limonada</l><r>R$60</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-refrigerante"><l>Refrigerante</l><r>R$40</r></button>
+				<button class="menuoption" data-action="bebidas-comprar-cafe"><l>Café</l><r>R$25</r></button>
+			</div>
+			<div data-parent="bebidas" id="bebidas-vender" style="display: none;">
+				<button class="menuoption" data-action="bebidas-vender-cerveja"><l>Cerveja</l><r>R$9</r></button>
+				<button class="menuoption" data-action="bebidas-vender-tequila"><l>Tequila</l><r>R$15</r></button>
+				<button class="menuoption" data-action="bebidas-vender-vodka"><l>Vodka</l><r>R$24</r></button>
+				<button class="menuoption" data-action="bebidas-vender-whisky"><l>Whisky</l><r>R$30</r></button>
+				<button class="menuoption" data-action="bebidas-vender-conhaque"><l>Conhaque</l><r>R$36</r></button>
+				<button class="menuoption" data-action="bebidas-vender-absinto"><l>Absinto</l><r>R$45</r></button>
+				<button class="menuoption" data-action="bebidas-vender-energetico"><l>Energético</l><r>R$75</r></button>
+				<button class="menuoption" data-action="bebidas-vender-agua"><l>Água</l><r>R$40</r></button>
+				<button class="menuoption" data-action="bebidas-vender-limonada"><l>Limonada</l><r>R$30</r></button>
+				<button class="menuoption" data-action="bebidas-vender-refrigerante"><l>Refrigerante</l><r>R$20</r></button>
+				<button class="menuoption" data-action="bebidas-vender-cafe"><l>Café</l><r>R$12</r></button>
+			</div>
+
+			<div data-parent="mainmenu" id="comidas" style="display: none;">
+				<button class="menuoption" data-sub="comidas-comprar">Comprar</button>
+				<button class="menuoption" data-sub="comidas-vender">Vender</button>
+			</div>
+			<div data-parent="comidas" id="comidas-comprar" style="display: none;">
+				<button class="menuoption" data-action="comidas-comprar-chocolate"><l>Chocolate</l><r>R$30</r></button>
+				<button class="menuoption" data-action="comidas-comprar-salgadinho"><l>Salgadinho</l><r>R$50</r></button>
+				<button class="menuoption" data-action="comidas-comprar-rosquinha"><l>Rosquinha</l><r>R$70</r></button>
+				<button class="menuoption" data-action="comidas-comprar-pizza"><l>Pizza</l><r>R$120</r></button>
+				<button class="menuoption" data-action="comidas-comprar-pao"><l>Pão</l><r>R$90</r></button>
+				<button class="menuoption" data-action="comidas-comprar-sanduiche"><l>Sanduiche</l><r>R$100</r></button>
+			</div>
+			<div data-parent="comidas" id="comidas-vender" style="display: none;">
+				<button class="menuoption" data-action="comidas-vender-chocolate"><l>Chocolate</l><r>R$15</r></button>
+				<button class="menuoption" data-action="comidas-vender-salgadinho"><l>Salgadinho</l><r>R$25</r></button>
+				<button class="menuoption" data-action="comidas-vender-rosquinha"><l>Rosquinha</l><r>R$35</r></button>
+				<button class="menuoption" data-action="comidas-vender-pizza"><l>Pizza</l><r>R$60</r></button>
+				<button class="menuoption" data-action="comidas-vender-pao"><l>Pão</l><r>R$45</r></button>
+				<button class="menuoption" data-action="comidas-vender-sanduiche"><l>Sanduiche</l><r>R$50</r></button>
+			</div>
+		</div>
+		<script src="ui.js" type="text/javascript"></script>
+	</body>
+</html>

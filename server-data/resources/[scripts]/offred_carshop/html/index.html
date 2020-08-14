@@ -1,0 +1,196 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="popup.css">
+  <link rel="stylesheet" href="modernize.css">
+  <link rel="stylesheet" href="mockmacbook.min.css">
+</head>
+
+<body>
+  <div id="MacbookSection">
+    <div class="md-macbook-pro">
+      <div class="md-lid">
+        <div class="md-camera"></div>
+        <div class="md-screen">
+
+          <div id="CarShopSection">
+            <div class="main">
+              <div class="top-section">
+                <div class="logo">
+                  <img src="imgs/logo.png" alt="">
+                </div>
+                Premium Deluxe Motorsports
+              </div>
+              <div class="side-menu">
+                <ul class="menu-list">
+                  <li>
+                    <a href="#" class="each-item selected" data-frame-id="1">
+                      <div class="icon car"></div>
+                      <span class="item-title">Carros</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="each-item" data-frame-id="2">
+                      <div class="icon bike"></div>
+                      <span class="item-title">Motos</span>
+                    </a>
+                  </li>
+
+                  <li>
+                    <a href="#" class="each-item" data-frame-id="3">
+                      <div class="icon truck"></div>
+                      <span class="item-title">Caminhões</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+              <div id="MainFrame" class="middle-section">
+                <div class="multiple-frames">
+                  <div class="each-frame car-frame" data-frame-id="1">
+                    <div class="search-section">
+                      <input type="text" class="search-field car" placeholder="Digite o nome do carro...">
+                    </div>
+                    <ul class="vehicle-list">
+                    </ul>
+					
+                  </div>
+                  <div class="each-frame bikes-frame hide" data-frame-id="2">
+                    <div class="search-section">
+                      <input type="text" class="search-field bike" placeholder="Digite o nome da moto...">
+                    </div>
+                    <ul class="vehicle-list">
+                    </ul>
+                  </div>
+                  <div class="each-frame trucks-frame hide" data-frame-id="3">
+                      <div class="search-section">
+                          <input type="text" class="search-field truck" placeholder="Digite o nome do caminhão...">
+                        </div>
+                        <ul class="vehicle-list">
+                              <center><font color="black">Sem veículo no momento.</font></center>
+                        </ul>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+      </div>
+      <div class="md-base"></div>
+    </div>
+  </div>
+  
+  <!--START MOCKS -->
+  
+  <div id="MockEachMoto" style="display:none">
+	<li class="each-vehicle mock each-result">
+	  <a href="#">
+	  <img src="imgs/default.jpg" alt="" class="car-img">
+	  <div class="car-info">
+		<div class="vehicle-name each-info">
+		<span>
+		  Nome:
+		</span>
+		<strong>
+		</strong>
+		<div class="clear"></div>
+		</div>
+
+		<div class="vehicle-price each-info">
+		<span>
+		  Preço:
+		</span>
+		<strong>
+		</strong>
+		<div class="clear"></div>
+
+		</div>
+		<div class="vehicle-stock each-info">
+		<span>
+		  Estoque:
+		</span>
+		<strong>
+		</strong>
+		<div class="clear"></div>
+
+		</div>
+		<div class="vehicle-carga each-info">
+		<span>
+		  Carga:
+		</span>
+		<strong>
+		</strong>
+		<div class="clear"></div>
+		</div>
+	  </div>
+	  </a>
+	</li>
+  </div>
+  
+  <div id="MockEachCar" style="display:none">
+		<li class="each-vehicle mock each-result">
+		  <a href="#">
+		  <img src="imgs/default.jpg" alt="" class="car-img">
+		  <div class="car-info">
+			<div class="vehicle-name each-info">
+			<span>
+			  Nome:
+			</span>
+			<strong>
+			</strong>
+			<div class="clear"></div>
+			</div>
+
+			<div class="vehicle-price each-info">
+			<span>
+			  Preço:
+			</span>
+			<strong>
+			</strong>
+			<div class="clear"></div>
+
+			</div>
+			<div class="vehicle-stock each-info">
+			<span>
+			  Estoque:
+			</span>
+			<strong>
+			</strong>
+			<div class="clear"></div>
+
+			</div>
+			<div class="vehicle-carga each-info">
+			<span>
+			  Carga:
+			</span>
+			<strong>
+			</strong>
+			<div class="clear"></div>
+			</div>
+		  </div>
+		  </a>
+		</li>
+	</div>
+	<div class="cd-popup" role="alert">
+	   <div class="cd-popup-container">
+		  <font color="black"><p>Você deseja confirmar esta ação?</p></font>
+		  <ul class="cd-buttons">
+			 <li><a href="#" class="confirmarAcao">Sim</a></li>
+			 <li><a href="#" class="recusarAcao">Não</a></li>
+		  </ul>
+		  <a href="#0" class="cd-popup-close img-replace">Fechar</a>
+	   </div> <!-- cd-popup-container -->
+	</div> <!-- cd-popup -->
+	
+	
+	
+  <!-- END MOCKS -->
+  <script src="https://code.jquery.com/jquery-3.4.0.min.js"
+    integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=" crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
