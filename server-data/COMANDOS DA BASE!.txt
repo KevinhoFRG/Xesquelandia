@@ -1,0 +1,117 @@
+ Utilidade Pública:
+
+F11 - Para ver sua identidade, RG, número de telefone, dinheiro na carteira e no banco
+F6 - Para cancelar animações
+F7 - Para cancelar missões/Cancela missões
+F2 - Abre o inventário
+HOME - Muda a distancia da fala        
+Page Up- Para interagir com o porta-malas do seu carro
+M - Para empurrar o carro 
+Z - Liga/Desliga motor do veículo
+L - Tranca/Destranca o veículo    
+/vehs - Lista de seus veículos
+/casas - Todas as residências em seu nome
+/multas VALOR - Você  paga suas multas no banco       
+/cr NÚMERO - NÚMERO = velocidade do veículo
+/alertas - Ativa e desativa os alertas
+/pack CARGA - Criar caminho de entrega da carga do caminhoneiro
+H - Soltar carga do caminhão ao manter pressionado        
+me - Efetuar uma animação não existente
+--------------------------------------------------------------------------
+Chamados:
+
+/chamar 192 - Para chamar a emergência
+/chamar 190- Para chamar a polícia
+/chamar taxi - Para chamar táxi
+/chamar mecanico - Para chamar mecânico 
+/chamar god - Para chamar algum DEUS
+/chamar adv - Para chamar um advogado
+--------------------------------------------------------------------------
+SAMU:
+
+/toogle - para entrar/sair de serviço
+/re - para reanimar o paciente em coma
+/tratamento - para curar o paciente
+/reanimar - para reanimar americano
+/e cuidar - animação de cuidados do paciente
+/e prancheta - Anotações em uma prancheta
+/e anotar - Anotações em uma caderneta
+/ferido - Para andar como se estivesse ferido
+H - para carregar paciente
+/cv - para colocar paciente na ambulância
+/rv - para retirar paciente da ambulância
+--------------------------------------------------------------------------
+POLICIA:
+
+/toogle - Para entrar e sair de serviço       
+/e continencia - Prestar continência
+/id NÚMERO - Para ver o passaporte da pessoa    
+/revistar - Para revistar um civil
+/apreender - Apreensão de todos os itens
+/prender- Envia uma pessoa para a prisão        
+G - Algemar
+H - Carregar jogador<br>
+/cv - Colocar a pessoa algemada no veículo
+/rv - Remover a pessoa do veículo    
+/defuse - Defusar a bomba do veículo            
+/placa- Mostra a placa do veículo mais próximo
+/multar - Aplicar multa no ID destinado
+/detido - Deixa o veículo na detenção
+/rmascara - Retirar a mascara da pessoa próxima
+/rchapeu - Retirar o chapéu da pessoa próxima
+/rcapuz - Retirar o capuz da pessoa próxima
+/cone- Coloca um cone a sua frente
+cone d - Retira um cone a sua frente
+barreira- Coloca uma barreira a sua frente
+/barreira - Retira uma barreira a sua frente
+/spike - Coloca um espinho a sua frente
+/spike  - Retira um espinho a sua frente 
+--------------------------------------------------------------------------
+Mecânico:
+
+/reparar  - Para reparar o carro
+/motor - Para reparar motor
+/tow - Para colocar o carro no guincho/retirar o carro do guincho
+/trunk - Para abrir/fechar o porta malas
+/hood - Para abrir/fechar o capo
+/doors - Para abrir/fechar as portas
+/wins - Abrir e fechar os vidros do veículo
+/e mecanico 1, 2 e 3 - Animações de conserto do carro    
+/e consertar - Pega o massarico na mão 
+--------------------------------------------------------------------------
+Armamento:  >> "nomedaarma" cinza à direita que deve ser digitado 
+
+/recarregar nomedaarma  (quantidade da munição) - Para recarregar arma, a mesma necessita estar equipada
+/garmas - Para desequipar todas as armas do inventário
+/equipar nomedaarma - Para equipar a arma da mochila 
+/use nomedoitem - Para equipar itens utilizáveis (como masterpick)
+
+/roubar - Para roubar um cidadão próximo (precisa estar armado)
+/sequestro - Coloca a pessoa no porta-malas
+/carregar - Carrega um americano
+/sequestro2 - Coloca o americano no porta-malas
+/cloneplate - Clona a placa do veículo utilizado 
+--------------------------------------------------------------------------
+COMANDOS ADM:
+
+/dv -- Deleta um veículo do lado
+/fix -- Reparar veículo
+/god id-- Reviver ou encher a vida 
+/pon -- Ver quais ID's estão online
+/tuning -- Tunar o carro no máximo
+/unwl ID -- Tirar a whitelist
+/wl ID -- Colocar na whitelist
+/kick ID -- Kickar do servidor
+/ban ID -- Banir do servidor 
+/unban -- Desbanir no servidor
+/nc -- Noclip
+/tpcds -- Teleporte em uma cordenada X,Y,Z
+/cds -- Pegar a cordenada X,Y,Z 
+/group id trabalho -- Setar alguem
+/tptome id -- Puxar alguem
+/tpto id -- Ir até alguem
+/tpway -- Teleporte para lugar do mapa marcado
+/car nomespawn -- Spawnar veículo
+/delnpcs -- Deletar npc's próximos
+/adm -- Anuncio de ADM
+/money quantia -- gerar grana
