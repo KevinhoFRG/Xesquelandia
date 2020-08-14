@@ -1,0 +1,87 @@
+
+
+<head>
+	<script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="../../configNui.js" type="text/javascript"></script>
+	<script src="scripts.js" type="text/javascript"></script>
+	<script src="debounce.min.js" type="text/javascript"></script>
+	<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+		integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<script src="sweetalert2.all.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<div class="full-screen">
+		<div class="container">
+			<button class="btnClose"><i class="fas fa-times fa-2x"></i></button>
+			<div class="style-1">			
+				<div id="sections" class="flex">
+					<div id="pitems" class="flex">
+						<div class="inv_esquerda">
+							<div class="inv_e_label">Mochila</div>
+						</div>
+						<div class="inv_esquerda_items"></div>
+					</div>
+					<div id="items" class="flex">
+						<div class="inv_direita">
+							<div class="inv_d_label">Bau</div>
+						</div>
+						<div class="inv_direita_items"></div>
+					</div>
+					<div id="functions">						
+						<input id="amount1" type="number" placeholder="Quantidade" value="1"
+							oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>						
+						<button class="function" onclick="useItem()">Usar</button></br>
+						<button class="function" onclick="putItem()" id="sendme"></button></br>
+						<button class="function" onclick="takeItem()" id="sendme2"></button></br>
+						<div class="inv_e_weight_l">Mochila</div>
+						<div class="inv_e_weight">
+							<span class="label_1">0.1/5 kg</span>
+							<span class="progress_1"></span>
+						</div>
+						<br>
+						<div class="inv_d_weight_l">Bau</div>
+						<div class="inv_d_weight">
+							<span class="label_1">0.1/5 kg</span>
+							<span class="progress_1"></span>
+						</div>
+					</div>
+		
+				</div>
+			</div>
+			
+			<div class="style-2">			
+				<div id="sections" class="flex">
+					<div class="equipped">
+						<div class="eq_label">EQUIPADO</div>
+						<div class="eq_items"></div>
+						<div class="eq_storeall">
+							<button onclick="storeAll()">Guardar Tudo</button></br>
+						</div>
+					</div>
+					<div id="pitems" class="flex">
+						<div class="inv_esquerda">
+							<div class="inv_e_label">Mochila</div>
+						</div>
+						<div class="inv_esquerda_items"></div>
+					</div>
+					<div id="functions">			
+						<span>QUANTIDADE:</span>
+						<input id="amount2" type="number" placeholder="Quantidade" value="1" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');">	</br>						
+						<button class="function" onclick="useItem()">Usar</button></br>
+						<button class="function" onclick="dropItem()">Dropar</button></br>
+						<button class="function" onclick="giveItem()" id="sendme3">Dar</button></br>
+						<div class="inv_e_weight">
+							<span class="label_1">0.1/5 kg</span>
+							<span class="progress_1"></span>
+						</div>						
+					</div>
+		
+				</div>
+			</div>
+		</div>
+	</div>
+</body>

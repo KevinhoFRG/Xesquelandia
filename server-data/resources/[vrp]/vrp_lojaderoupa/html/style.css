@@ -1,0 +1,196 @@
+@font-face {
+    src: url(font/Roboto-Regular.ttf);
+    font-family: 'Roboto';
+}
+
+
+*{
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto';
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* SCROLL BAR */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+::-webkit-scrollbar-track {
+    background: #0f0f0f;
+}
+::-webkit-scrollbar-thumb {
+    background: #0f0f0f;
+}
+/* --SCROLL BAR */
+
+ /* DIV GERAIS */
+.loja-de-roupa {
+    border-radius: 3px;
+    margin-top: 5%;
+    margin-left: 70%;
+    width: 300px;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+ /* --DIV GERAIS */
+
+/* vrp_lojaderoupa HEADER */
+.loja-de-roupa-header{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 50px;
+    width: 100%;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.70);
+}
+
+.loja-de-roupa-header h2{
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    line-height: 50px;
+}
+
+/* --vrp_lojaderoupa HEADER */
+
+/* vrp_lojaderoupa OVERFLOW */
+.loja-de-roupa-overflow{
+    height: 350px;
+    position: relative;
+    overflow-y: scroll;
+}
+/* --vrp_lojaderoupa OVERFLOW */
+
+/* vrp_lojaderoupa BODY */
+
+.loja-de-roupa-body{
+    background-color: rgba(0, 0, 0, 0.60);
+    height: 266%;
+    width: 100%;
+    padding: 20px;
+    color: #FFF;
+}
+
+.roupa-item{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #7c7c7c;
+    margin-bottom: 10px;
+    height: 55px;
+    float: left;
+    line-height: 55px;
+}
+
+.img-roupa{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 25px;
+}
+
+.roupa-item p{
+    font-size: 18px;
+    width: 80px;
+}
+.roupa-item .item-icone {
+    margin-top: 10px;
+    fill: #FFF;
+}
+
+.roupa-item .btn1{
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.70);
+    border-radius: 50px;
+    font-size: 20px;
+    width: 35px;
+    margin-top: 10px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.btn2{
+    text-decoration: none;
+    border: 2px solid rgba(0, 0, 0, 0.70);
+    border-radius: 50px;
+    font-size: 20px;
+    width: 35px;
+    margin-top: 10px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+}
+
+.btncor{
+    text-decoration: none;
+}
+
+/* --vrp_lojaderoupa BODY */
+
+/* vrp_lojaderoupa FOOTER */
+
+.loja-de-roupa-footer {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    color: #FFF;
+    height: 120px;
+    border-top: 1px solid rgba(0, 0, 0, 0.80);
+    background: rgba(0, 0, 0, 0.80);
+    font-weight: bold;
+}
+
+
+.preco-total span{
+    color: #00cc00;
+}
+
+.comprar{
+    text-transform: uppercase;
+    margin-top: 25px;
+    float: right;
+    cursor: pointer;
+    border: 2px solid #d60000;
+    border-radius: 50px;
+    padding: 6px 20px;
+    transition: all 1s;
+}
+
+.comprar:hover{
+    border: 2px solid #00cc00;
+}
+
+.loja-de-roupa-footer-black{
+    background-color: rgba(0, 0, 0, 0.80);
+    height: 50px;
+    width: 100%;
+    border-top: 3px solid rgba(0, 0, 0, 0.70);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.loja-de-roupa-footer-black h2{
+    text-align: center;
+    font-size: 23px;
+    color: white;
+    margin-top: 10px;
+}
+
+.loja-de-roupa-footer-black img{
+    float: right;
+    position: relative;
+    top: -35px;
+}
+
+.roupa-item a img{
+    margin-right: auto;
+}
+/* --vrp_lojaderoupa FOOTER */

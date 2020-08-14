@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<head>
+    <title>VRP_CONCESSIONARIA</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <link href="ui.css" type="text/css" rel="stylesheet">
+    <script src="ui.js" type="text/javascript"></script>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,700" rel="stylesheet">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+</head>
+<body style="background-color: transparent">
+    <div class="body" id="carshop" style="display: none">
+    <div class="wrapper">
+        <header class="main-header">
+            <a class="logo"><img src="https://cdn.discordapp.com/attachments/679914663881867294/684287039385894930/logo-concessionaria.png" /></a>
+            <div class="top-menu">
+                <ul id="ul">
+					    <p>Bem vindo a concessionária<br>
+	    					<span class="name"><span class="username1"></span></span><br>
+                    <li id="li"><a id="fechar"><i class="fas fa-times"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <section class="main">
+            <h1>"<font color="red">Concessionaria </font><br />Compre seus carros &amp; motos por um preço acessível<br />Para entrar no catalogo de veiculos e ver suas caracteristicas<br />clique ao lado!"</h1>
+
+        <footer class="main-footer">
+            <div class="copyright">Copyright &copy; 2019 Halkein.</div>
+            <div class="social">
+                <ul id="ul">
+                    <li id="li"><a class="info-conce"><font color="red">https://Halkein-rp.online</font></a></li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+    <div class="off-aside">
+        <div class="info">
+            <div class="text">Carros<span> Disponiveis</span></div>
+            <div class="aside-btn"><i class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i></div>
+        </div>
+        <div class="aside-menu">
+            <div class="container-item">
+
+            </div>
+        </div>
+    </div>
+    <script>
+    $(document).ready(function(){
+        window.addEventListener('message', function(event) {
+            if (event.data.show) {
+                $('#identidade').html(event.data.identidade);
+            }
+        });
+    });
+    document.addEventListener("click", function(event) {
+    if (event.target.closest(".info") || event.target.closest(".btn")) {
+        document.querySelector(".off-aside").classList.toggle( "modifier");
+    } else if (!event.target.closest(".off-aside")){
+        document.querySelector(".off-aside").classList.remove("modifier");
+    }
+    }, false);
+    </script>
+</body>
+</html>
