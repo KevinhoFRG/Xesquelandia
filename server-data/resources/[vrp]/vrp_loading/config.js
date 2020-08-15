@@ -7,7 +7,7 @@ var config = {
     /* Insert the Youtube Video ID below */
     "videoID": "8JUoT5VuGxk",
     /* Music Volume (0%-100%) | Lower is Quieter, Higher is Louder */
-    "musicVolume": 70,
+    "musicVolume": 35,
     "text": {
         "title": "Servidor xesquelandia",
         "link": "Bem-vindo a Xesquelandia!",
