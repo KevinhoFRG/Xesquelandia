@@ -23,7 +23,7 @@ $(document).ready(function(){
       
       $('.hud-player').css('background','url(img/barra_Esquerda.png) no-repeat');
       $('.hud-player').css('width','220px');
-      $('.hud-player').css('right','43.8%');
+      $('.hud-player').css('right','2%');
       $("#velocimetro").fadeOut(10);
     }
     if ( event.data.cinto == true ) {

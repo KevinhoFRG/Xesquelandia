@@ -699,7 +699,8 @@ cfg.garage_types = {
 		["packer"] = { "caminhão 02",0,0,-1 }
 	},
 	["Bennys"] = {
-		_config = { gtype={"shop"},permissions={"mecanico.permissao"} },
+		-- _config = { gtype={"shop"},permissions={"mecanico.permissao"} },
+		_config = { gtype={"shop"} },
 		_shop = {
 			[0] = { "Aerofolio",3000,"" },
 			[1] = { "Saia Frontal",3000,"" },

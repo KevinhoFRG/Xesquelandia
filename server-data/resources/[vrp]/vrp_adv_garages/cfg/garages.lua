@@ -678,7 +678,8 @@ cfg.garage_types = {
 		["riot"] = { "Blindado",0,0,-1 },
 	},
 	["Bennys"] = {
-		_config = { gtype={"shop"},permissions={"mecanico.permissao"} },
+		-- _config = { gtype={"shop"},permissions={"mecanico.permissao"} },
+		_config = { gtype={"shop"} },
 		_shop = {
 			[0] = { "Aerofolio",200,"" },
             [1] = { "Saia Frontal",200,"" },
